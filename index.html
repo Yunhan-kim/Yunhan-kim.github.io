@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yunhan Kim — Senior Researcher, KETI</title>
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+<meta name="description" content="Yunhan Kim — Senior Researcher at Korea Electronics Technology Institute (KETI). Industrial AI, PHM, anomaly detection, manufacturing foundation models, and humanoid robotics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== Top Nav ===== -->
+<header class="nav" id="nav">
+  <a href="#hero" class="nav__brand">Yunhan&nbsp;Kim<span class="nav__brand-ko">김윤한</span></a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#about"        data-i18n="nav_about"></a>
+    <a href="#education"    data-i18n="nav_education"></a>
+    <a href="#experience"   data-i18n="nav_experience"></a>
+    <a href="#projects"     data-i18n="nav_projects"></a>
+    <a href="#publications" data-i18n="nav_publications"></a>
+    <a href="#patents"      data-i18n="nav_patents"></a>
+    <a href="#awards"       data-i18n="nav_awards"></a>
+    <a href="#talks"        data-i18n="nav_talks"></a>
+  </nav>
+  <div class="nav__right">
+    <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+      <span data-lang="en">KO</span><span data-lang="ko">EN</span>
+    </button>
+    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="hero">
+  <div class="hero__bg"></div>
+  <div class="hero__inner">
+    <div class="hero__photo">
+      <img src="assets/img/profile.jpg" alt="Yunhan Kim">
+    </div>
+    <div class="hero__text">
+      <p class="hero__eyebrow" data-field="title"></p>
+      <h1 class="hero__name" data-field="name"></h1>
+      <p class="hero__kw"><span class="hero__kw-label" data-i18n="hero_focus"></span> <span class="hero__kw-rot" id="kwRotator"></span></p>
+      <p class="hero__affil" data-field="affiliation"></p>
+      <div class="hero__contact">
+        <a id="emailLink" href=""><svg viewBox="0 0 24 24"><path d="M2 5h20v14H2zM2 6l10 7 10-7"/></svg><span id="emailText"></span></a>
+        <a id="linkedinLink" href="" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M4.98 3.5A2.5 2.5 0 102.5 6a2.5 2.5 0 002.48-2.5zM3 8.5h4V21H3zM9 8.5h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.75V21h-4v-5.5c0-1.3-.02-3-1.9-3s-2.2 1.43-2.2 2.9V21H9z"/></svg><span>LinkedIn</span></a>
+        <a id="scholarLink" href="" target="_blank" rel="noopener"><svg class="ic-scholar" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg><span>Scholar</span></a>
+        <a id="orcidLink" href="" target="_blank" rel="noopener"><svg class="ic-orcid" viewBox="0 0 256 256"><circle cx="128" cy="128" r="128" fill="#A6CE39"/><g fill="#fff"><path d="M86.3 186.2H70.9V79.1h15.4v107.1z"/><path d="M108.9 79.1h41.6c39.6 0 57 28.3 57 53.6 0 27.5-21.5 53.6-56.8 53.6h-41.8V79.1zm15.4 93.3h24.5c34.9 0 42.9-26.5 42.9-39.7 0-21.5-13.7-39.7-43.7-39.7h-23.7v79.4z"/><circle cx="78.6" cy="56.8" r="10.1"/></g></svg><span>ORCID</span></a>
+      </div>
+      <div class="hero__stats" id="heroStats"></div>
+    </div>
+  </div>
+  <a href="#about" class="hero__scroll"><span data-i18n="scroll"></span><i></i></a>
+</section>
+
+<main>
+  <!-- About -->
+  <section class="section" id="about">
+    <h2 class="section__title"><span data-i18n="sec_about"></span></h2>
+    <p class="about__lead" data-field="about"></p>
+    <h3 class="sub sub--research" data-i18n="sec_research"></h3>
+    <p class="research-intro" id="researchIntro"></p>
+    <div class="concept" id="researchConcept"></div>
+    <div class="research-grid" id="researchGrid"></div>
+    <div class="rflow" id="researchFlow"></div>
+  </section>
+
+  <!-- Education -->
+  <section class="section alt" id="education">
+    <h2 class="section__title"><span data-i18n="sec_education"></span></h2>
+    <div class="timeline" id="educationList"></div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <h2 class="section__title"><span data-i18n="sec_experience"></span></h2>
+    <div class="timeline" id="experienceList"></div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section alt" id="projects">
+    <h2 class="section__title"><span data-i18n="sec_projects"></span></h2>
+    <div class="cards" id="projectsList"></div>
+  </section>
+
+  <!-- Publications -->
+  <section class="section" id="publications">
+    <h2 class="section__title"><span data-i18n="sec_publications"></span></h2>
+    <div class="tabs" id="pubTabs">
+      <button class="tab active" data-tab="journal"  data-i18n="tab_journal"></button>
+      <button class="tab"        data-tab="intl"     data-i18n="tab_intl"></button>
+      <button class="tab"        data-tab="domestic" data-i18n="tab_domestic"></button>
+    </div>
+    <ol class="pub-list" id="journalList" data-panel="journal"></ol>
+    <ol class="pub-list hidden" id="intlList" data-panel="intl"></ol>
+    <ol class="pub-list hidden" id="domesticList" data-panel="domestic"></ol>
+    <p class="pub-legend" id="pubLegend"></p>
+  </section>
+
+  <!-- Patents -->
+  <section class="section alt" id="patents">
+    <h2 class="section__title"><span data-i18n="sec_patents"></span></h2>
+    <h3 class="sub" data-i18n="lbl_registered"></h3>
+    <div class="patent-list" id="patentRegList"></div>
+    <h3 class="sub" data-i18n="lbl_applied"></h3>
+    <div class="patent-list" id="patentAppList"></div>
+    <h3 class="sub" data-i18n="lbl_software"></h3>
+    <div class="patent-list" id="softwareList"></div>
+  </section>
+
+  <!-- Awards -->
+  <section class="section" id="awards">
+    <h2 class="section__title"><span data-i18n="sec_awards"></span></h2>
+    <div class="award-grid" id="awardsList"></div>
+  </section>
+
+  <!-- Talks -->
+  <section class="section alt" id="talks">
+    <h2 class="section__title"><span data-i18n="sec_talks"></span></h2>
+    <div class="timeline" id="talksList"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Yunhan Kim · <a id="footEmail" href=""></a></p>
+  <p class="footer__note">Korea Electronics Technology Institute (KETI), Autonomous Manufacturing Research Center</p>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lbClose">&times;</button>
+  <img id="lbImg" src="" alt="">
+  <p class="lightbox__cap" id="lbCap"></p>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

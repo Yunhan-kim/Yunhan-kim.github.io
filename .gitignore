@@ -1,0 +1,6 @@
+# large unused backups (not linked on the live site)
+papers/
+patents/
+# system
+.DS_Store
+_test*.html
