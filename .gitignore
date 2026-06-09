@@ -1,6 +1,6 @@
-# large unused backups (not linked on the live site)
-papers/
-patents/
+# large unused PDF backups at the site root (NOT the asset images)
+/papers/
+/patents/
 # system
 .DS_Store
 _test*.html
