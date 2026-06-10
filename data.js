@@ -304,7 +304,7 @@ const DATA = {
   ],
 
   talks: [
-    {id:"T5",title:{en:"Toward Autonomous Manufacturing: Factory AI Agents Powered by Foundation Models",ko:"자율제조를 위한 파운데이션 모델 기반 Factory AI Agent 개발"},venue:{en:"Online Invited Seminar, BK21 Program, Dongguk University",ko:"동국대 BK21 자율지능기계시스템 미래인재양성사업 온라인 초청 세미나"},date:{en:"May 29, 2026",ko:"2026.05.29"}},
+    {id:"T5",title:{en:"Toward Autonomous Manufacturing: Factory AI Agents Powered by Foundation Models",ko:"자율제조를 위한 파운데이션 모델 기반 Factory AI Agent 개발"},venue:{en:"Online Invited Seminar, BK21 Program, Dongguk University",ko:"동국대 BK21 자율지능기계시스템 미래인재양성사업 온라인 초청 세미나"},date:{en:"May 29, 2026",ko:"2026.05.29"},poster:"assets/talks/T5_poster.jpg"},
     {id:"T4",title:{en:"Toward Autonomous Manufacturing: Factory AI Agents Powered by Foundation Models",ko:"자율제조를 위한 파운데이션 모델 기반 Factory AI Agent 개발"},venue:{en:"Invited Course Seminar, Dept. of Mechanical Engineering, Seoul National University",ko:"서울대 기계공학부 수업 초청 세미나"},date:{en:"Apr. 22, 2026",ko:"2026.04.22"}},
     {id:"T3",title:{en:"Toward Autonomous Manufacturing: Factory AI Agents Powered by Foundation Models",ko:"자율제조를 위한 파운데이션 모델 기반 Factory AI Agent 개발"},venue:{en:"Invited Seminar, College of Engineering, Pukyong National University",ko:"부경대 공과대학 초청 세미나"},date:{en:"Jan. 28, 2026",ko:"2026.01.28"}},
     {id:"T2",title:{en:"Development of Factory AI Agent Powered by Manufacturing Foundation Model",ko:"제조 파운데이션 모델 기반 Factory AI Agent 개발"},venue:{en:"AI Factory Hackathon 2025",ko:"AI Factory Hackathon 2025"},date:{en:"Dec. 16, 2025",ko:"2025.12.16"}},
@@ -399,6 +399,7 @@ const I18N = {
   status_completed: {en:"Completed", ko:"완료"},
   status_upcoming:  {en:"Upcoming",  ko:"예정"},
   project_summary:  {en:"1-page summary", ko:"한 장 요약"},
+  talk_poster:      {en:"Poster", ko:"포스터"},
   role_sole:        {en:"Sole PI",         ko:"단독 PI"},
   role_lead:        {en:"Lead Researcher", ko:"실무책임자"},
   role_copi:        {en:"Co-PI",           ko:"공동기관책임자"},
