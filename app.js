@@ -228,11 +228,16 @@
       head.appendChild(el("span", "titem__period", t(d.date)));
       txt.appendChild(head);
       txt.appendChild(el("div", "titem__detail", t(d.venue)));
-      if (d.poster) {
-        const pl = el("button", "poster-link",
-          `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg><span>${t(I18N.talk_poster)}</span>`);
-        pl.addEventListener("click", () => openLightbox(d.poster, t(d.title) + " · " + t(I18N.talk_poster)));
-        txt.appendChild(pl);
+      if (d.materials && d.materials.length) {
+        const mats = el("div", "talk-materials");
+        d.materials.forEach(mt => {
+          const lab = t(mt.label);
+          const pl = el("button", "poster-link",
+            `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg><span>${lab}</span>`);
+          pl.addEventListener("click", () => openLightbox(mt.img, t(d.title) + " · " + lab));
+          mats.appendChild(pl);
+        });
+        txt.appendChild(mats);
       }
       row.appendChild(txt);
       item.appendChild(row);
