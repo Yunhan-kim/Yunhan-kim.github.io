@@ -259,9 +259,9 @@ html[lang="ko"] .about__lead{font-family:var(--font);font-weight:400}
 .titem{position:relative;padding:0 0 1.6rem}
 .titem:last-child{padding-bottom:0}
 .titem::before{content:"";position:absolute;left:-1.8rem;top:5px;width:12px;height:12px;border-radius:50%;background:var(--card);border:3px solid var(--accent);transform:translateX(-1px)}
-.titem__head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.4rem 1rem;align-items:baseline}
-.titem__org{font-weight:700;font-size:1.08rem}
-.titem__period{font-size:.85rem;color:var(--accent);font-weight:600;white-space:nowrap}
+.titem__head{display:flex;flex-wrap:nowrap;justify-content:space-between;gap:.4rem 1.1rem;align-items:flex-start}
+.titem__org{font-weight:700;font-size:1.08rem;flex:1;min-width:0}
+.titem__period{font-size:.85rem;color:var(--accent);font-weight:600;white-space:nowrap;flex:none;margin-top:.15rem}
 .titem__role{color:var(--ink-soft);font-weight:500;margin-top:.1rem}
 .titem__detail{color:var(--ink-soft);font-size:.95rem;margin-top:.25rem}
 .titem__place{color:var(--muted);font-size:.82rem;margin-top:.1rem}
@@ -397,6 +397,8 @@ html[lang="ko"] .about__lead{font-family:var(--font);font-weight:400}
 /* ===== Talks (timeline + small slide cover) ===== */
 .titem__row{display:flex;gap:1rem;align-items:flex-start}
 .titem__txt{flex:1;min-width:0}
+.titem__date{font-size:.82rem;color:var(--accent);font-weight:700;letter-spacing:.01em;margin-bottom:.15rem}
+.titem__talktitle{font-weight:700;font-size:1.08rem;line-height:1.35}
 .talk-thumb{flex:none;width:96px;aspect-ratio:16/9;border-radius:6px;overflow:hidden;cursor:pointer;
   border:1px solid var(--line);background:#0b1a33;box-shadow:0 1px 3px rgba(16,24,40,.1);
   transition:.2s;align-self:flex-start;margin-top:2px}

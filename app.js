@@ -223,10 +223,8 @@
       thumb.addEventListener("click", () => openLightbox(src, t(d.venue) + " · " + t(d.date)));
       row.appendChild(thumb);
       const txt = el("div", "titem__txt");
-      const head = el("div", "titem__head");
-      head.appendChild(el("span", "titem__org", t(d.title)));
-      head.appendChild(el("span", "titem__period", t(d.date)));
-      txt.appendChild(head);
+      txt.appendChild(el("div", "titem__date", t(d.date)));
+      txt.appendChild(el("div", "titem__talktitle", t(d.title)));
       txt.appendChild(el("div", "titem__detail", t(d.venue)));
       if (d.materials && d.materials.length) {
         const mats = el("div", "talk-materials");

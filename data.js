@@ -312,7 +312,7 @@ const DATA = {
     {id:"T3",title:{en:"Toward Autonomous Manufacturing: Factory AI Agents Powered by Foundation Models",ko:"자율제조를 위한 파운데이션 모델 기반 Factory AI Agent 개발"},venue:{en:"Invited Seminar, College of Engineering, Pukyong National University",ko:"부경대 공과대학 초청 세미나"},date:{en:"Jan. 28, 2026",ko:"2026.01.28"}},
     {id:"T2",title:{en:"Development of Factory AI Agent Powered by Manufacturing Foundation Model",ko:"제조 파운데이션 모델 기반 Factory AI Agent 개발"},venue:{en:"AI Factory Hackathon 2025",ko:"AI Factory Hackathon 2025"},date:{en:"Dec. 16, 2025",ko:"2025.12.16"},
      materials:[{label:{en:"Poster",ko:"포스터"},img:"assets/talks/T2_poster.jpg"},{label:{en:"Schedule",ko:"시간표"},img:"assets/talks/T2_schedule.jpg"}]},
-    {id:"T1",title:{en:"Autonomous Manufacturing Powered by Humanoid Robotics Technologies",ko:"Autonomous Manufacturing Powered by Humanoid Robotics Technologies"},venue:{en:"2024 Symposium on KR-SG R&D Matchmaking (SKSRM), Singapore",ko:"2024 Symposium on KR-SG R&D Matchmaking (SKSRM), Singapore"},date:{en:"Oct. 28-30, 2024",ko:"2024.10.28-30"},
+    {id:"T1",title:{en:"Autonomous Manufacturing Powered by Humanoid Robotics Technologies",ko:"Autonomous Manufacturing Powered by Humanoid Robotics Technologies"},venue:{en:"2024 Symposium on KR-SG R&D Matchmaking (SKSRM), Singapore",ko:"2024 Symposium on KR-SG R&D Matchmaking (SKSRM), Singapore"},date:{en:"Oct. 29, 2024",ko:"2024.10.29"},
      materials:[{label:{en:"Poster",ko:"포스터"},img:"assets/talks/T1_poster.jpg"},{label:{en:"Schedule",ko:"시간표"},img:"assets/talks/T1_schedule.jpg"}]}
   ],
 
