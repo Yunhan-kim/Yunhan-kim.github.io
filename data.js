@@ -304,6 +304,8 @@ const DATA = {
   ],
 
   talks: [
+    {id:"T6",title:{en:"Advancing Autonomous Manufacturing with Humanoid Robotics: Practical Applications and Future Directions",ko:"Advancing Autonomous Manufacturing with Humanoid Robotics: Practical Applications and Future Directions"},venue:{en:"Online Invited Seminar, G.R.I.D. (Global Researchers in Dialogue), KIAT U.S. Office",ko:"Online Invited Seminar, G.R.I.D. (Global Researchers in Dialogue), KIAT U.S. Office"},date:{en:"Jun. 12, 2026",ko:"2026.06.12"},
+     materials:[{label:{en:"Poster",ko:"포스터"},img:"assets/talks/T6_poster.jpg"}]},
     {id:"T5",title:{en:"Toward Autonomous Manufacturing: Factory AI Agents Powered by Foundation Models",ko:"자율제조를 위한 파운데이션 모델 기반 Factory AI Agent 개발"},venue:{en:"Online Invited Seminar, BK21 Program, Dongguk University",ko:"동국대 BK21 자율지능기계시스템 미래인재양성사업 온라인 초청 세미나"},date:{en:"May 29, 2026",ko:"2026.05.29"},
      materials:[{label:{en:"Poster",ko:"포스터"},img:"assets/talks/T5_poster.jpg"}]},
     {id:"T4",title:{en:"Toward Autonomous Manufacturing: Factory AI Agents Powered by Foundation Models",ko:"자율제조를 위한 파운데이션 모델 기반 Factory AI Agent 개발"},venue:{en:"Invited Course Seminar, Dept. of Mechanical Engineering, Seoul National University",ko:"서울대 기계공학부 수업 초청 세미나"},date:{en:"Apr. 22, 2026",ko:"2026.04.22"}},
