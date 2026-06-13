@@ -319,7 +319,7 @@ const DATA = {
   /* Awards with certificate images */
   awards: [
     {title:{en:"Best Presentation Award, KSMTE",ko:"논문 우수발표상, 한국생산제조학회"},date:{en:"Dec. 2025",ko:"2025.12"},img:"assets/awards/2025_ksmte_presentation.jpg"},
-    {title:{en:"Best Presentation Award, CDE",ko:"우수발표상, 한국CDE학회"},date:{en:"Feb. 2025",ko:"2025.02"},noimg:true},
+    {title:{en:"Best Presentation Award, CDE",ko:"우수발표상, 한국CDE학회"},date:{en:"Feb. 2025",ko:"2025.02"},img:"assets/awards/2025_cde_presentation.jpg"},
     {title:{en:"Outstanding Dissertation Award, Reliability Division, KSME",ko:"우수학위논문상, 신뢰성부문, 대한기계학회"},date:{en:"Mar. 2022",ko:"2022.03"},img:"assets/awards/2022_ksme_dissertation.jpg"},
     {title:{en:"Outstanding Doctoral Dissertation Award, Dept. of ME, Seoul National University",ko:"우수박사학위논문상, 기계공학부, 서울대학교"},date:{en:"Feb. 2022",ko:"2022.02"},img:"assets/awards/2022_snu_dissertation.jpg"},
     {title:{en:"Best Student Award – Bronze, PHM Asia Pacific 2021",ko:"Best Student Award – 동상, PHM Asia Pacific 2021"},date:{en:"Sep. 2021",ko:"2021.09"},img:"assets/awards/2021_phmap_bronze.jpg"},
