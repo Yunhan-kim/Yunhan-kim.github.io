@@ -215,6 +215,8 @@ const DATA = {
   ],
 
   confIntl: [
+    {id:"C18", authors:"Yeji Kim, Yunhan Kim", title:"Micro-Defect Image Synthesis Based on Latent Diffusion Model with Defect-Aware Scaling", venue:"IEEE 35th International Symposium on Industrial Electronics (ISIE 2026)", place:"Nagoya, Japan", date:"2026.06.23–26", year:2026},
+    {id:"C17", authors:"Sangmin Park, Yunhan Kim", title:"Signal-to-Text Alignment for Large Language Models in Bearing Fault Classification and Remaining Useful Life Prediction", venue:"IEEE 35th International Symposium on Industrial Electronics (ISIE 2026)", place:"Nagoya, Japan", date:"2026.06.23–26", year:2026},
     {id:"C16", authors:"In C. Lee, Su J. Kim, Yunhan Kim, Joo H. Im, Minseok Chae, Byeng D. Youn", title:"A Statistical Approach for Estimating Component Lifetime Based on Accelerated Life Testing Data", venue:"Asia Pacific Conference of the Prognostics and Health Management Society 2021 (PHMAP 2021)", place:"Jeju, Republic of Korea", date:"2021.09.08–11", year:2021},
     {id:"C15", authors:"Yunhan Kim, Kyumin Na, Byeng D. Youn", title:"A Novel Multiscale Convolutional Neural Network for Industrial Gearbox Fault Diagnostics", venue:"Asia Pacific Conference of the Prognostics and Health Management Society 2021 (PHMAP 2021)", place:"Online", date:"2021.09.08–11", year:2021, award:"Best Student Award – Bronze"},
     {id:"C14", authors:"Yunhan Kim, Kyumin Na, Byeng D. Youn", title:"Intelligent Fault Diagnostics Based on a New Convolutional Neural Network for Smart Manufacturing", venue:"International Conference on Energy, Aquatech and Sustainability 2021 (ICEAS 2021)", place:"Online", date:"2021.08.11–13", year:2021},
@@ -381,7 +383,7 @@ const I18N = {
   sec_more:         {en:"Service & Skills",         ko:"학회 활동 및 역량"},
 
   tab_journal:    {en:"Journal",              ko:"국제 학술지"},
-  tab_intl:       {en:"Int'l Conference",     ko:"국제 학술대회"},
+  tab_intl:       {en:"International Conference", ko:"국제 학술대회"},
   tab_domestic:   {en:"Domestic Conference",  ko:"국내 학술대회"},
 
   lbl_registered: {en:"Registered Patents",   ko:"등록 특허"},
