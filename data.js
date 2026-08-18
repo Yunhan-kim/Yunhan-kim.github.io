@@ -294,6 +294,7 @@ const DATA = {
   ],
 
   patentsApplied: [
+    {id:"PA4",inventors:{en:"Yunhan Kim, Sangmin Park",ko:"김윤한, 박상민"},title:{en:"Method and System for Large Language Model-Based Bearing Degradation State Classification and Remaining Useful Life Prediction Using Signal-Text Embedding Alignment",ko:"신호-텍스트 임베딩 정렬을 이용한 대규모 언어모델 기반 베어링 열화 상태 분류 및 잔여수명 예측 방법 및 시스템"},no:"10-2026-0153300",date:"2026.08.14"},
     {id:"PA3",inventors:{en:"Yunhan Kim, Beomjoon Kim",ko:"김윤한, 김범준"},title:{en:"Imitation Learning Method and System Using Joint Position and Grasping Force of a Humanoid Robot with Multi-fingered Hand",ko:"다지 핸드를 갖는 휴머노이드 로봇의 관절 위치 및 파지력 정보를 이용한 모방학습 방법 및 시스템"},no:"10-2026-0053571",date:"2026.03.25"},
     {id:"PA2",inventors:{en:"Yunhan Kim",ko:"김윤한"},title:{en:"Vision-language Model Based Robot Arm Control System and Method",ko:"비전-언어 모델 기반 로봇 팔 제어 시스템 및 방법"},no:"10-2025-0057363",date:"2025.04.30"},
     {id:"PA1",inventors:{en:"Yunhan Kim, Saemyung Oh, Seungwook Nam",ko:"김윤한, 오세명, 남승욱"},title:{en:"Automated Method and System for Generating OPC-UA Information Models Based on Large Language Model",ko:"대규모 언어 모델 기반 OPC-UA 정보모델 생성 자동화 방법 및 시스템"},no:"10-2024-0140795",date:"2024.10.16"}
