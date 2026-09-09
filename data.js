@@ -133,6 +133,12 @@ const DATA = {
   ],
 
   projects: [
+    { role:"copi", title:{en:"Development of Core Technologies for an AI Foundation Model for Property Prediction of Materials (Compounds and Mixtures)",
+             ko:"AI 기반 소재(화합물/혼합물)의 물성예측이 가능한 파운데이션 모델 핵심 기술 개발"},
+      period:{en:"Jul. 2026 – Dec. 2028 · Korea Planning & Evaluation Institute of Industrial Technology (KEIT)",ko:"2026.07 – 2028.12 · 산업기술기획평가원(KEIT)"},
+      detail:{en:"Developing a materials foundation model (MatFM) that predicts physical properties of chemical compounds and mixtures",
+              ko:"화합물·혼합물의 물성을 예측하는 소재 파운데이션 모델(MatFM) 개발"},
+      summary:"assets/projects/matfm.jpg" },
     { role:"lead", title:{en:"Autonomous Process Operation Technology Based on Humanoid Robots for Autonomous Manufacturing",
              ko:"주력 제조업종의 자율제조를 위한 휴머노이드 로봇 기반 자율공정 운영 기술 개발"},
       period:{en:"Sep. 2024 – Dec. 2028 · Korea Planning & Evaluation Institute of Industrial Technology (KEIT)",ko:"2024.09 – 2028.12 · 산업기술기획평가원(KEIT)"},
@@ -142,8 +148,8 @@ const DATA = {
     { role:"copi", title:{en:"Development of Core Technologies for Manufacturing Foundation Models",
              ko:"제조 특화 파운데이션 모델(MFM) 핵심 기술 개발"},
       period:{en:"Aug. 2025 – Feb. 2028 · Korea Planning & Evaluation Institute of Industrial Technology (KEIT)",ko:"2025.08 – 2028.02 · 산업기술기획평가원(KEIT)"},
-      detail:{en:"Developing manufacturing-specific foundation models and factory AI agents",
-              ko:"제조 특화 파운데이션 모델 및 Factory AI 에이전트 개발"},
+      detail:{en:"Developing manufacturing-specific foundation models (MFM) and factory AI agents",
+              ko:"제조 특화 파운데이션 모델(MFM) 및 Factory AI 에이전트 개발"},
       summary:"assets/projects/mfm.jpg" },
     { role:"lead", title:{en:"On-Device Generative-AI-Based Quality Inspection Using Small-Scale Data",
              ko:"생성형 AI 및 스몰데이터 기반 온디바이스 AI 품질 검사 최적화 기술 개발"},
